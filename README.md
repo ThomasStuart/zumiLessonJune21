@@ -1,10 +1,10 @@
 # zumiLessonJune21
 
-Classes. 
+** Classes. **
 Create a class Circle that takes a radius and name. Calculate the area and perimeter.  
 
 
-<u> Max   Finding Max </u>
+** Max.   Finding Max **
 
 [1]Max vowels class.  given a list of stings, traverse through a string and count the number of vowels. return the string with the most vowels. 
 
@@ -23,7 +23,7 @@ Score:  1 point for letter, 2 point for num, 3 for symbol
 [3]Max point class. Make it apart of the Zumi mission. When Zumi stops, has to solve the puzzle.  Apply this to Zumi. starting @ (0,0), drive to the farthest point.
 
 
-Sorting. Selection sort.
+** Sorting. Selection sort. **
 
 [1] given a file, sort the words in ascii order. min to max.  
 
