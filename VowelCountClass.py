@@ -12,17 +12,15 @@ class VowelCount:
     def getWords(self):
         return self.w 
     
-    def getTop( self ):
+    def getTop(self):
         # calc that top value top = {maxWord, maxCount}
         # hint use: mapWordsToCount and self.w
-        
         # call mapWordsToCount on self.w 
-        
-        answer = ??
+        answer = self.mapWordsToCount(self.w) # one line of code goes after the RHS of equal sign 
         return answer 
         
 
-    def setNumberVowels( word ): 
+    def setNumberVowels(self, word ): 
         counter = 0
         #vowels  = #list containin the vowels
 
@@ -40,13 +38,13 @@ class VowelCount:
 
                 # words1 = "hello", world 
                 # words2 = "it", "dictionary", "food"
-    def mapWordsToCount(words):
+    def mapWordsToCount(self, words):
         # creates an list called pairs 
         pairs = []
 
         # calcs the number of vowels per word
         for i in range(0, len(words)): 
-            countV = setNumberVowels(words[i])
+            countV = self.setNumberVowels(words[i])
             pairs.append( (words[i], countV) )
 
 
@@ -65,3 +63,12 @@ class VowelCount:
 
         return maxWord, maxVowelCount 
 
+    
+words1 = ["hello", "world"]
+obj1   =  VowelCount( words1 )
+print( obj1.getTop() )  # hello, 2
+
+words2 = ["it", "dictionary", "food"]  
+    
+obj2   =  VowelCount( words2 )
+print( obj2.getTop() )  # dictioanry, 4
