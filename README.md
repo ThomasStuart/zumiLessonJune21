@@ -4,7 +4,7 @@ Classes.
 Create a class Circle that takes a radius and name. Calculate the area and perimeter.  
 
 
-Max.   Finding Max.
+<u> Max.   Finding Max.</u>
 
 [1]Max vowels class.  given a list of stings, traverse through a string and count the number of vowels. return the string with the most vowels. 
 
